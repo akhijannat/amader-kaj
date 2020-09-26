@@ -53,6 +53,7 @@
   /* Our Ledership style */
   .ledCard-shadow {
       box-shadow: 2px 3px 10px 1px #eabfe7;
+      border-radius: 30px;
       transition: all .3s ease-in-out;
   }
 
