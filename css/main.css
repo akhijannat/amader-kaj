@@ -50,9 +50,15 @@
     }
   }
 
+  /* Our Ledership style */
   .ledCard-shadow {
       box-shadow: 2px 3px 10px 1px #eabfe7;
       transition: all .3s ease-in-out;
+  }
+
+  .ledCard-shadow h6 {
+      color: #7D157D;
+      font-weight: 800;
   }
   .ledCard-shadow:hover {
       box-shadow: none;
