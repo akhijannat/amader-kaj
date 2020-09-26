@@ -1,0 +1,51 @@
+.carousel-height {
+    height: 550px;
+  }
+
+  .hover a:hover {
+    background: rgb(150, 97, 150);
+  }
+
+  /* footer icon */
+  .facebook {
+    /* background: rgb(1, 52, 161); */
+    color: #999999;
+    padding: 2px 8px;
+  }
+
+  .twitter {
+    /* background: rgb(33, 118, 184); */
+    color: #999999;
+    padding: 2px 8px;
+  }
+
+  .google {
+    /* background: #b92a17; */
+    color: #999999;
+    padding: 2px 8px;
+  }
+
+  .linkedin {
+    /* background: #036ea0; */
+    color: #999999;
+    padding: 2px 8px;
+  }
+
+  .youtube {
+    /* background: #bb0202; */
+    color: #999999;
+    padding: 2px 8px;
+  }
+
+  /* footer icon */
+  @media (max-width: 760px) {
+    .smalldevice {
+      display: none;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .smallfont {
+      font-size: 30px !important;
+    }
+  }
