@@ -51,9 +51,9 @@
   }
 
   .ledCard-shadow {
-      box-shadow: 10px 10px 10px 15px#7D157D;
+      box-shadow: 2px 3px 10px 1px #eabfe7;
+      transition: all .3s ease-in-out;
   }
   .ledCard-shadow:hover {
       box-shadow: none;
-      border: 1px solid #7D157D;
   }
