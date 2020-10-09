@@ -1,66 +1,66 @@
 .carousel-height {
-    height: 550px;
-  }
+  height: 550px;
+}
 
-  .hover a:hover {
-    background: rgb(150, 97, 150);
-  }
+.hover a:hover {
+  background: rgb(150, 97, 150);
+}
 
-  /* footer icon */
-  .facebook {
-    /* background: rgb(1, 52, 161); */
-    color: #999999;
-    padding: 2px 8px;
-  }
+/* Our Ledership style */
+.ledCard-shadow {
+  box-shadow: 2px 3px 10px 1px #eabfe7;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
 
-  .twitter {
-    /* background: rgb(33, 118, 184); */
-    color: #999999;
-    padding: 2px 8px;
-  }
+.ledCard-shadow h6 {
+  color: #7d157d;
+  font-weight: 800;
+}
+.ledCard-shadow:hover {
+  box-shadow: none;
+}
 
-  .google {
-    /* background: #b92a17; */
-    color: #999999;
-    padding: 2px 8px;
-  }
+/* footer icon */
+.facebook {
+  /* background: rgb(1, 52, 161); */
+  color: #999999;
+  padding: 2px 8px;
+}
 
-  .linkedin {
-    /* background: #036ea0; */
-    color: #999999;
-    padding: 2px 8px;
-  }
+.twitter {
+  /* background: rgb(33, 118, 184); */
+  color: #999999;
+  padding: 2px 8px;
+}
 
-  .youtube {
-    /* background: #bb0202; */
-    color: #999999;
-    padding: 2px 8px;
-  }
+.google {
+  /* background: #b92a17; */
+  color: #999999;
+  padding: 2px 8px;
+}
 
-  /* footer icon */
-  @media (max-width: 760px) {
-    .smalldevice {
-      display: none;
-    }
-  }
+.linkedin {
+  /* background: #036ea0; */
+  color: #999999;
+  padding: 2px 8px;
+}
 
-  @media (max-width: 760px) {
-    .smallfont {
-      font-size: 30px !important;
-    }
-  }
+.youtube {
+  /* background: #bb0202; */
+  color: #999999;
+  padding: 2px 8px;
+}
 
-  /* Our Ledership style */
-  .ledCard-shadow {
-      box-shadow: 2px 3px 10px 1px #eabfe7;
-      border-radius: 30px;
-      transition: all .3s ease-in-out;
+/* footer icon */
+@media (max-width: 760px) {
+  .smalldevice {
+    display: none;
   }
+}
 
-  .ledCard-shadow h6 {
-      color: #7D157D;
-      font-weight: 800;
+@media (max-width: 760px) {
+  .smallfont {
+    font-size: 30px !important;
   }
-  .ledCard-shadow:hover {
-      box-shadow: none;
-  }
+}
